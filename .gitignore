@@ -1,4 +1,27 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.ipynb_checkpoints
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Mac / Windows system files
 .DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Optional: Dataset files (if too large)
+*.csv
+*.zip
+*.tar.gz
